@@ -1,8 +1,7 @@
 import React from 'react';
 import { FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa';
-import ContactSection from './ContactSectionWhatsapp';
 import handleWhatsAppClick from './ContactUtils';
-
+import Image from 'next/image';
 
 const Footer: React.FC = () => {
     return (
@@ -25,32 +24,50 @@ const Footer: React.FC = () => {
                             <a className="" target="_blank" rel="noopener noreferrer" href="#">
                             </a>
 
-                            <a className="  flex justify-start items-center" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chrispoaura/profilecard/?igsh=dXQzYnJpZnh5cXVv">
-                                <img
-                                    alt="instagram icon"
-                                    loading="lazy"
-                                    width="40px"
+                            <a
+                                className="flex justify-start items-center"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.instagram.com/chrispoaura/profilecard/?igsh=dXQzYnJpZnh5cXVv"
+                            >
+                                <Image
+                                    alt="Instagram icon"
                                     src="/icons/ig.png"
+                                    width={40}
+                                    height={40}
+                                    priority={false}
                                 />
-                                Instagram
+                                <span className="ml-2">Instagram</span>
                             </a>
-                            <a className="  flex justify-start items-center" target="_blank" rel="noopener noreferrer" href="https://x.com/AuraChrispo?t=1pvxrPka6IKLl4raEXzxNg&s=09">
-                                <img
-                                    alt="twitter icon"
-                                    loading="lazy"
+                            <a
+                                className="flex justify-start items-center"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://x.com/AuraChrispo?t=1pvxrPka6IKLl4raEXzxNg&s=09"
+                            >
+                                <Image
+                                    alt="X (Twitter) icon"
                                     src="/icons/x.png"
-                                    width="40px"
+                                    width={40}
+                                    height={40}
+                                    priority={false}
                                 />
-                                X (Formerly Twitter)
+                                <span className="ml-2">X (Formerly Twitter)</span>
                             </a>
-                            <a className="  flex justify-start items-center " target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ChrispoAura">
-                                <img
-                                    alt="youtube icon"
-                                    loading="lazy"
-                                    width="40px"
+                            <a
+                                className="flex justify-start items-center"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.youtube.com/@ChrispoAura"
+                            >
+                                <Image
+                                    alt="YouTube icon"
                                     src="/icons/yt.png"
+                                    width={40}
+                                    height={40}
+                                    priority={false}
                                 />
-                                YouTube
+                                <span className="ml-2">YouTube</span>
                             </a>
                         </div>
                     </div>

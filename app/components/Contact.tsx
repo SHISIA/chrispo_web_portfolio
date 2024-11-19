@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function ContactForm() {
@@ -37,10 +38,17 @@ export default function ContactForm() {
   return (
     <div className="w-full flex p-4 max-w-7xl mt-6">
       <div className='flex flex-row w-full justify-center '>
-        <img  loading='lazy' src='/images/butterfly.jpeg' className='hidden xl:flex w-96 rounded-l-xl' />
+        <Image
+          src="/images/butterfly.jpeg"
+          alt="A beautiful butterfly"
+          className="hidden xl:flex w-96 rounded-l-xl"
+          width={384} // Width in pixels (tailored for w-96)
+          height={384} // Adjust as needed to match aspect ratio
+          priority={false} // Use `priority` for critical images instead of `loading`
+        />
         <section className="bg-white w-full  xl:w-[600px] rounded-xl xl:rounded-r-xl xl:rounded-l-none shadow-xl border">
           <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex flex-col">
-            
+
             <form onSubmit={handleSubmit} className="space-y-8">
               <div className='flex flex-col justify-start items-start'>
                 <label htmlFor="email" className="block mb-2 text-lg font-medium text-gray-600">

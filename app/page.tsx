@@ -10,6 +10,7 @@ import ContactForm from './components/Contact';
 import DesktopImageRow from './components/DesktopImageGrow';
 import ContactSection from './components/ContactSectionWhatsapp';
 import TrustedBy from './components/TrustedBy';
+import Image from 'next/image';
 export default function Home() {
 
   const [showMenu, setShowMenu] = useState(false);
@@ -81,7 +82,7 @@ export default function Home() {
         <div className="px-4 xl:px-8">
           <h1 className="mt-6 text-xl font-bold text-slate-900">Hi! Chris here.</h1>
           <p className="text-gray-800">
-            Welcome to <strong>The Travel Photographer</strong>'s Internet domain,
+            Welcome to <strong>The Travel Photographer</strong>&apos;s Internet domain,
             where we do all things Camera. Say cheese!
           </p>
         </div>
@@ -111,7 +112,7 @@ export default function Home() {
   return (
     <div className=" relative sm:max-w-full max-w-7xl mx-auto h-screen flex flex-col items-center content-center text-center  isolate  ">
       <div id='homeMobile' className='md:hidden justify-end items-end opacity-100 '>
-        <img loading='lazy' src='/shots/flipped.png' className='fixed *:-z-20 opacity-10 md:opacity-100 w-96 mt-20 -ml-11 ' />
+        <Image alt='chrispo image' width={96} height={96} src='/shots/flipped.png' className='fixed *:-z-20 opacity-10 md:opacity-100 w-96 mt-20 -ml-11 ' />
       </div>
       <div id='home' className="hidden sm:flex flex-row space-x-5 py-6 fixed top-0 bg-white z-50 w-full items-center justify-center h-16">
         <a href='#home' className="cursor-pointer hover:bg-slate-900 w-24 hover:text-white text-gray-900 rounded-3xl p-2" >Home</a>
@@ -165,8 +166,7 @@ export default function Home() {
 
             <div>
 
-              <img loading='lazy' src='/shots/flipped.png' className='opacity-100 w-96 ' />
-              {/* <img  loading='lazy' className="-mt-20 w-32 ml-10 " src="/shots/camera.png" alt="" /> */}
+              <Image alt="chrispo image" width={100} height={100} src='/shots/flipped.png' className='opacity-100 w-96 ' />
             </div>
             <FloatingCard />
           </div>
@@ -187,11 +187,11 @@ export default function Home() {
 
         <article className="mx-auto my-10 flex max-w-md flex-col rounded-2xl bg-white px-4 shadow md:max-w-5xl md:flex-row md:items-center">
           <div className=" my-4 md:mr-8 md:max-w-sm">
-            <img loading='lazy' className="rounded-2xl" src="/shots/IMG_9456.jpg" alt="" />
+            <img  loading='lazy' className="rounded-2xl" src="/shots/IMG_9456.jpg" alt="" />
           </div>
           <div className="py-4 sm:py-8 flex flex-col justify-center items-center">
             <a href="#" className="mb-6 block text-2xl font-serif text-gray-700 ">Our prices are tailored to specific individual requirements and apply solely on the specific setting.</a>
-            <p className="mb-6 text-gray-500">"The price of something is only as heavy as the hands that hold it. To one, it’s a burden; to another, a feather: and yet , to another , it is an obstacle towards photographic greatness"</p>
+            <p className="mb-6 text-gray-500">&quot;The price of something is only as heavy as the hands that hold it. To one, it&apos;s a burden; to another, a feather: and yet , to another , it is an obstacle towards photographic greatness&quot;</p>
             <div className="flex flex-row">
               <img loading='lazy' className="h-10 w-10 rounded-full object-cover" src="/shots/flipped.png" alt="Simon Lewis" />
               <p className="ml-4 w-56 items-start flex flex-col">
@@ -232,12 +232,12 @@ export default function Home() {
       <div className='w-full flex justify-center p-4 sm:px-16 max-w-screen-xl'>
         <div className='bg-gray-800 h-96 xl:h-64 items-center text-center justify-center flex flex-col rounded-lg px-5 bg-gradient-to-r from-slate-900 to-slate-700'>
           <Typography className='text-3xl xl:text-5xl px-5 text-white'>Are You Ready to kickstart your project?</Typography>
-          <p className='p-2 xl:px-60 text-wrap text-center text-gray-200 font-sans'>Reach out and let's make it happen ✨. I'm  available for open opportunities to push the boundaries of photography and deliver outstanding work.</p>
+          <p className='p-2 xl:px-60 text-wrap text-center text-gray-200 font-sans'>Reach out and let&apos;s make it happen ✨. I&apos;m  available for open opportunities to push the boundaries of photography and deliver outstanding work.</p>
           <ContactSection />
         </div>
       </div>
       <div>
-        <h2 className="mb-1 mt-5 px-3 text-3xl  xl:text-4xl  text-black font-sans xl:p-5 ">"Capturing Journeys, Creating Memories"</h2>
+        <h2 className="mb-1 mt-5 px-3 text-3xl  xl:text-4xl  text-black font-sans xl:p-5 ">&quot;Capturing Journeys, Creating Memories&quot;</h2>
       </div>
       <TrustedBy />
       <Footer />

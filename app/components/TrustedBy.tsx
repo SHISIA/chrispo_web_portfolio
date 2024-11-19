@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "keen-slider/keen-slider.min.css";
-import { useKeenSlider, KeenSliderInstance } from "keen-slider/react";
+import { useKeenSlider } from "keen-slider/react";
+import Image from "next/image";
 
 
 const logos = [
@@ -51,10 +52,12 @@ const TrustedBy: React.FC = () => {
             key={index}
             className="keen-slider__slide flex justify-center items-center  flex-col"
           >
-            <img
+            <Image
               src={logo.src}
               alt={logo.alt}
-              className="h-12 object-contain "
+              className="object-contain "
+              width={50}
+              height={48}
             />
             <p className="text-[10px] xl:text-[15px]">{logo.alt}</p>
           </div>

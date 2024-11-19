@@ -1,6 +1,5 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import CameraIcon from '@mui/icons-material/Camera';
 import { Typography } from "@mui/material";
 
 export const Typewriter = () => {
@@ -12,7 +11,7 @@ export const Typewriter = () => {
 
             <div className="flex flex-row">
               <Typography className="flex text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent mt-1">C</Typography>
-              <img className="h-16 mt-2 -ml-3 -mr-3" src="/shots/camera_lens.png" />
+              <img className="h-16 mt-2 -ml-3 -mr-3" src="/shots/camera_lens.png" alt="camera icon"/>
               <Typography className="flex-ml-5 text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent ">pturing </Typography>
             </div>
             <Typography className="flex-ml-5 text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent "> Moments . . . </Typography>
@@ -48,7 +47,7 @@ const BlockInTextCard = ({
 }) => {
   return (
     <div className="w-full max-w-xl space-y-6 justify-start items-start xl:p-9">
-      <p className="max-w-lg text-xl leading-relaxed text-start ">{text}</p>
+      <span className="max-w-lg text-xl leading-relaxed text-start ">{text}</span>
       <div className="justify-start text-start">
         <Typewrite examples={examples} />
         <hr className="border-neutral-300" />
@@ -74,7 +73,7 @@ const Typewrite = ({ examples }: { examples: string[] }) => {
     }, SWAP_DELAY_IN_MS);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [examples.length]);
 
   return (
     <p className="mb-2.5 text-3xl font-light uppercase">

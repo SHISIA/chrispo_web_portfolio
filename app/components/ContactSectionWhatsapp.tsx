@@ -25,7 +25,7 @@ import handleWhatsAppClick from "./ContactUtils";
         className="flex items-center justify-center gap-2 w-40 h-12 mt-4 bg-white border-white text-black border-2 rounded-lg hover:bg-slate-700 hover:text-white transition duration-300"
       >
         <FaWhatsapp className="text-green-500 text-xl" /> {/* WhatsApp icon with color and size */}
-        Let's Talk
+        Let&apos;s Talk
       </button>
     </div>
   );
