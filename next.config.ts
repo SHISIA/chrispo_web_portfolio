@@ -1,15 +1,20 @@
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
+// const nextConfig: NextConfig = {
+//   /* config options here */
+//   output: 'export', // Enable static export
+//   // basePath: '/chrispo_web_Portfolio', // Replace with your repository name
+//   trailingSlash: true, // Ensures paths end with "/"
+// };
 
-const nextConfig: NextConfig = {
-  images: {
-    unoptimized: true,
-  },
-  output: "export", // Enable static export
-  basePath: isProd ? "/chrispo_web_Portfolio" : "", // Use basePath only in production
-  trailingSlash: true, // Ensures paths end with "/"
-  assetPrefix: isProd ? "/chrispo_web_Portfolio/" : "", // Prefix for assets in production
+// export default nextConfig;
+
+const isProd = process.env.NODE_ENV === 'production';
+
+const nextConfig = {
+  output: 'export',
+  assetPrefix: isProd ? '/chrispo_web_Portfolio' : '', // Use the prefix only in production
+  trailingSlash: true,
 };
 
 export default nextConfig;
