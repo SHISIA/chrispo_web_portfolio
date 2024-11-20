@@ -115,7 +115,7 @@ export default function Home() {
       <div id='homeMobile' className='md:hidden justify-end items-end opacity-100 '>
         <Image alt='chrispo image' width={96} height={96} src={`${prefix}/shots/flipped.webp`} className='fixed *:-z-20 opacity-10 md:opacity-100 w-96 mt-20 -ml-11 ' />
       </div>
-      <div id='home' className="hidden sm:flex flex-row space-x-5 py-6 fixed top-0 bg-white z-50 w-full items-center justify-center h-16">
+      <div  className="hidden sm:flex flex-row space-x-5 py-6 fixed top-0 bg-white z-50 w-full items-center justify-center h-16">
         <a href='#home' className="cursor-pointer hover:bg-slate-900 w-24 hover:text-white text-gray-900 rounded-3xl p-2" >Home</a>
         <a href='#portfolio' className="cursor-pointer hover:bg-slate-900 w-24 hover:text-white text-gray-900 rounded-3xl p-2" >Portfolio</a>
         <a href='#testimonials' className="cursor-pointer hover:bg-slate-900 w-24 hover:text-white text-gray-900 rounded-3xl p-2" >Testimonials</a>
@@ -158,7 +158,7 @@ export default function Home() {
           </div>
         )}
       </div>
-      <div className='bg-transparent flex flex-row justify-start w-full max-w-7xl'>
+      <div id='home' className='bg-transparent flex flex-row justify-start w-full max-w-7xl'>
         <Typewriter />
 
         <div className='hidden md:flex -z-20  justify-end items-center opacity-100'>
