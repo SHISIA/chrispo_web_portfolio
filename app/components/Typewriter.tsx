@@ -11,11 +11,11 @@ export const Typewriter = () => {
           <>
 
             <div className="flex flex-row">
-              <Typography className="flex text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent mt-1">C</Typography>
-              <img className="h-16 mt-2 -ml-3 -mr-3" src={`${prefix}/shots/camera_lens.png`} alt="camera icon"/>
-              <Typography className="flex-ml-5 text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent ">pturing </Typography>
+              <p className="flex text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent mt-1">C</p>
+              <img className="h-16 mt-2 -ml-3 -mr-3" src={`${prefix}/shots/camera_lens.webp`} alt="camera icon"/>
+              <p className="flex-ml-5 text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent ">pturing </p>
             </div>
-            <Typography className="flex-ml-5 text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent "> Moments . . . </Typography>
+            <p className="flex-ml-5 text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent "> Moments . . . </p>
             <p className="text-md font-sans text-justify bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent">Embark on a visual journey with our photography services, where moments are not just captured but crafted into timeless , priceless memories with a personal touch of love and professionalism.</p>
           </>
         }

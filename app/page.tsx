@@ -113,7 +113,7 @@ export default function Home() {
   return (
     <div className=" relative sm:max-w-full max-w-7xl mx-auto h-screen flex flex-col items-center content-center text-center  isolate  ">
       <div id='homeMobile' className='md:hidden justify-end items-end opacity-100 '>
-        <Image alt='chrispo image' width={96} height={96} src={`${prefix}/shots/flipped.png`} className='fixed *:-z-20 opacity-10 md:opacity-100 w-96 mt-20 -ml-11 ' />
+        <Image alt='chrispo image' width={96} height={96} src={`${prefix}/shots/flipped.webp`} className='fixed *:-z-20 opacity-10 md:opacity-100 w-96 mt-20 -ml-11 ' />
       </div>
       <div id='home' className="hidden sm:flex flex-row space-x-5 py-6 fixed top-0 bg-white z-50 w-full items-center justify-center h-16">
         <a href='#home' className="cursor-pointer hover:bg-slate-900 w-24 hover:text-white text-gray-900 rounded-3xl p-2" >Home</a>
@@ -167,7 +167,7 @@ export default function Home() {
 
             <div>
 
-              <img alt="chrispo image" width={100} height={100} src={`${prefix}/shots/flipped.png`} className='opacity-100 w-96 ' />
+              <img alt="chrispo image" width={100} height={100} src={`${prefix}/shots/flipped.webp`} className='opacity-100 w-96 ' />
             </div>
             <FloatingCard />
           </div>
@@ -188,13 +188,13 @@ export default function Home() {
 
         <article className="mx-auto my-10 flex max-w-md flex-col rounded-2xl bg-white px-4 shadow md:max-w-5xl md:flex-row md:items-center">
           <div className=" my-4 md:mr-8 md:max-w-sm">
-            <img  loading='lazy' className="rounded-2xl" src="/shots/IMG_9456.jpg" alt="" />
+            <img  loading='lazy' className="rounded-2xl" src={`${prefix}/shots/IMG_9456.webp`} alt="" />
           </div>
           <div className="py-4 sm:py-8 flex flex-col justify-center items-center">
             <a href="#" className="mb-6 block text-2xl font-serif text-gray-700 ">Our prices are tailored to specific individual requirements and apply solely on the specific setting.</a>
             <p className="mb-6 text-gray-500">&quot;The price of something is only as heavy as the hands that hold it. To one, it&apos;s a burden; to another, a feather: and yet , to another , it is an obstacle towards photographic greatness&quot;</p>
             <div className="flex flex-row">
-              <img loading='lazy' className="h-10 w-10 rounded-full object-cover" src="/shots/flipped.png" alt="Simon Lewis" />
+              <img loading='lazy' className="h-10 w-10 rounded-full object-cover" src={`${prefix}/shots/flipped.webp" alt="Simon Lewis`} />
               <p className="ml-4 w-56 items-start flex flex-col">
                 <strong className="block font-medium text-gray-700">Chris</strong>
                 <span className="text-sm text-gray-400">Dec 26, 2024</span>

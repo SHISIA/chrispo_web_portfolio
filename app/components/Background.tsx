@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const images = [
-  `${prefix}/shots/DSC_0033.jpg`,  // Add the paths to your images here
-  `${prefix}/shots/DSC_0047.jpg`,
-  `${prefix}/shots/IMG_0383.jpg`,
-  `${prefix}/shots/IMG_0557.jpg`,
-  `${prefix}/shots/IMG_0634.jpg`,
-  `${prefix}/shots/IMG_0705.jpg`,
-  `${prefix}/shots/IMG_1265.jpg`,
-  `${prefix}/shots/IMG_1528.jpg`,
-  `${prefix}/shots/IMG_1877.jpg`,
-  `${prefix}/shots/IMG_1917.jpg`,
-  `${prefix}/shots/IMG_2273.jpg`,
+  `${prefix}/shots/DSC_0033.webp`,  // Add the paths to your images here
+  `${prefix}/shots/DSC_0047.webp`,
+  `${prefix}/shots/IMG_0383.webp`,
+  `${prefix}/shots/IMG_0557.webp`,
+  `${prefix}/shots/IMG_0634.webp`,
+  `${prefix}/shots/IMG_0705.webp`,
+  `${prefix}/shots/IMG_1265.webp`,
+  `${prefix}/shots/IMG_1528.webp`,
+  `${prefix}/shots/IMG_1877.webp`,
+  `${prefix}/shots/IMG_1917.webp`,
+  `${prefix}/shots/IMG_2273.webp`,
   // Add as many images as you like
 ];
 

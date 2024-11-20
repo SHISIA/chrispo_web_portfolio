@@ -27,7 +27,7 @@ const DesktopImageRow: React.FC = () => {
                     }
                   >
                     <Image
-                      src={`${prefix}/shots/IMG_9885.jpg`}
+                      src={`${prefix}/shots/IMG_9885.webp`}
                       alt="Instagram photo"
                       width={288} // width in pixels
                       height={384} // height in pixels
@@ -48,7 +48,7 @@ const DesktopImageRow: React.FC = () => {
                     }
                   >
                     <Image
-                      src={`${prefix}/shots/IMG_7662.jpg`}
+                      src={`${prefix}/shots/IMG_7662.webp`}
                       alt="Instagram photo"
                       width={288}
                       height={192}
@@ -73,7 +73,7 @@ const DesktopImageRow: React.FC = () => {
                     }
                   >
                     <Image
-                      src={`${prefix}/shots/IMG_0705.jpg`}
+                      src={`${prefix}/shots/IMG_0705.webp`}
                       alt="Instagram photo"
                       width={500}
                       height={208}
@@ -97,7 +97,7 @@ const DesktopImageRow: React.FC = () => {
                       }
                     >
                       <Image
-                        src={`${prefix}/shots/KICC.jpg`}
+                        src={`${prefix}/shots/KICC.webp`}
                         alt="Instagram photo"
                         width={380}
                         height={512}
@@ -121,7 +121,7 @@ const DesktopImageRow: React.FC = () => {
                         }
                       >
                         <Image
-                          src={`${prefix}/shots/IMG_9407.jpg`}
+                          src={`${prefix}/shots/IMG_9407.webp`}
                           alt="Instagram photo"
                           width={320}
                           height={384}
@@ -142,7 +142,7 @@ const DesktopImageRow: React.FC = () => {
                         }
                       >
                         <Image
-                          src={`${prefix}/shots/DSC_0033.jpg`}
+                          src={`${prefix}/shots/DSC_0033.webp`}
                           alt="Instagram photo"
                           width={320}
                           height={384}

@@ -12,7 +12,7 @@ const services = [
       "Capturing the essence of far-off destinations, travel photography tells stories of diverse cultures, landscapes, and people through striking, adventurous imagery.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_0383.jpg`}
+        src={`${prefix}/shots/IMG_0383.webp`}
         alt="Travel Photography"
         className="rounded-md"
         width={300}
@@ -27,7 +27,7 @@ const services = [
       "Preserving memories from life's most meaningful events, from corporate gatherings to family celebrations, where every moment counts and details shine.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_5518.jpg`}
+        src={`${prefix}/shots/IMG_5518.webp`}
         alt="Event Photography"
         className="rounded-md"
         width={300}
@@ -42,7 +42,7 @@ const services = [
       "Celebrating the beauty of nature, landscape photography brings the splendor of the natural world to life with breathtaking shots of mountains, lakes, and sweeping horizons.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_1877.jpg`}
+        src={`${prefix}/shots/IMG_1877.webp`}
         alt="Landscape Photography"
         className="rounded-md"
         width={300}
@@ -57,7 +57,7 @@ const services = [
       "Perfectly suited for professionals and creatives, headshot photography captures personality and confidence in portraits that make lasting first impressions.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_2845.jpg`}
+        src={`${prefix}/shots/IMG_2845.webp`}
         alt="Headshot Photography"
         className="rounded-md"
         width={300}
@@ -72,7 +72,7 @@ const services = [
       "Family photography captures the joy, warmth, and unique connections of loved ones, creating timeless memories to cherish for years to come.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_7451.jpg`}
+        src={`${prefix}/shots/IMG_7451.webp`}
         alt="Family Photography"
         className="rounded-md"
         width={300}
@@ -87,7 +87,7 @@ const services = [
       "Showcasing the best angles of homes, buildings, and interiors, architectural photography highlights spaces in their finest light for buyers, architects, and designers.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_0206.jpg`}
+        src={`${prefix}/shots/IMG_0206.webp`}
         alt="Real Estate & Architectural Photography"
         className="rounded-md"
         width={300}
@@ -102,7 +102,7 @@ const services = [
       "With vibrant colors and sharp details, HDR photography creates vivid images that bring out the finest elements of each scene, from cityscapes to natural wonders.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_2273.jpg`}
+        src={`${prefix}/shots/IMG_2273.webp`}
         alt="HDR Photography"
         className="rounded-md"
         width={300}
@@ -117,7 +117,7 @@ const services = [
       "Documenting love stories with elegance and care, wedding photography captures the heartfelt moments, emotions, and beauty of a couple’s special day.",
     icon: (
       <Image
-        src={`${prefix}/shots/DSC_0047.jpg`}
+        src={`${prefix}/shots/DSC_0047.webp`}
         alt="Wedding Photography"
         className="rounded-md"
         width={300}
@@ -132,7 +132,7 @@ const services = [
       "Highlighting strength, determination, and physical achievement, fitness photography captures the journey and spirit of fitness enthusiasts and athletes.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_1528.jpg`}
+        src={`${prefix}/shots/IMG_1528.webp`}
         alt="Fitness Photography"
         className="rounded-md"
         width={300}
@@ -147,7 +147,7 @@ const services = [
       "Designed to promote brands and products, commercial photography delivers polished images that capture the essence and appeal of what’s being offered.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_4496.jpg`}
+        src={`${prefix}/shots/IMG_4496.webp`}
         alt="Commercial Photography"
         className="rounded-md"
         width={300}
@@ -162,7 +162,7 @@ const services = [
       "Creating personalized portraits that capture the individuality, mood, and story of each subject, delivering more than just a photo but a true reflection.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_1999-2.jpg`}
+        src={`${prefix}/shots/IMG_1999-2.webp`}
         alt="Portrait Session"
         className="rounded-md"
         width={300}
@@ -177,7 +177,7 @@ const services = [
       "Freezing high-energy moments in time, sports photography captures the excitement, emotion, and action of athletes pushing their limits.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_7203.jpg`}
+        src={`${prefix}/shots/IMG_7203.webp`}
         alt="Sports Photography"
         className="rounded-md"
         width={300}
@@ -192,7 +192,7 @@ const services = [
       "Bringing out style, artistry, and attitude, fashion photography creates bold images that showcase clothing, accessories, and unique aesthetics.",
     icon: (
       <Image
-        src={`${prefix}/shots/IMG_1621.jpg`}
+        src={`${prefix}/shots/IMG_1621.webp`}
         alt="Fashion Photography"
         className="rounded-md"
         width={300}
