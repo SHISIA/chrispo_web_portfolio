@@ -9,7 +9,7 @@ const logos = [
     { src: `${prefix}/images/kisumu.png`, alt: "County Government of Kisumu" },
     { src: `${prefix}/images/aar.png`, alt: "AAR Healthcare" },
     { src: `${prefix}/images/judiciary.png`, alt: "The Judiciary of Kenya" },
-    { src: `${prefix}/images/Trinityforest.png`, alt: "Trinity Forest Services , Bombo Uganda" },
+    { src: `${prefix}/images/TrinityForest.png`, alt: "Trinity Forest Services , Bombo Uganda" },
   ];
 
 
