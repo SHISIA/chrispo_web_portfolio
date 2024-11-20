@@ -11,6 +11,7 @@ import DesktopImageRow from './components/DesktopImageGrow';
 import ContactSection from './components/ContactSectionWhatsapp';
 import TrustedBy from './components/TrustedBy';
 import Image from 'next/image';
+import { prefix } from '@/prefix';
 export default function Home() {
 
   const [showMenu, setShowMenu] = useState(false);
@@ -166,7 +167,7 @@ export default function Home() {
 
             <div>
 
-              <img alt="chrispo image" width={100} height={100} src='/shots/flipped.png' className='opacity-100 w-96 ' />
+              <img alt="chrispo image" width={100} height={100} src={`${prefix}/shots/flipped.png`} className='opacity-100 w-96 ' />
             </div>
             <FloatingCard />
           </div>
