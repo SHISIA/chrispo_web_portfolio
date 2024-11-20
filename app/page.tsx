@@ -194,7 +194,7 @@ export default function Home() {
             <a href="#" className="mb-6 block text-2xl font-serif text-gray-700 ">Our prices are tailored to specific individual requirements and apply solely on the specific setting.</a>
             <p className="mb-6 text-gray-500">&quot;The price of something is only as heavy as the hands that hold it. To one, it&apos;s a burden; to another, a feather: and yet , to another , it is an obstacle towards photographic greatness&quot;</p>
             <div className="flex flex-row">
-              <img loading='lazy' className="h-10 w-10 rounded-full object-cover" src={`${prefix}/shots/flipped.webp" alt="Simon Lewis`} />
+              <img loading='lazy' className="h-10 w-10 rounded-full object-cover" src={`${prefix}/shots/flipped.webp`} alt="Simon Lewis" />
               <p className="ml-4 w-56 items-start flex flex-col">
                 <strong className="block font-medium text-gray-700">Chris</strong>
                 <span className="text-sm text-gray-400">Dec 26, 2024</span>
