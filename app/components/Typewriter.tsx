@@ -1,6 +1,5 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Typography } from "@mui/material";
 import { prefix } from "@/prefix";
 
 export const Typewriter = () => {
