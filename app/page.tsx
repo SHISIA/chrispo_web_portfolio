@@ -167,7 +167,7 @@ export default function Home() {
 
             <div>
 
-              <img alt="chrispo image" width={100} height={100} src={`${prefix}/shots/flipped.png`} className='opacity-100 w-96 ' />
+              <img alt="chrispo image" width={100} height={100} src={`/shots/flipped.png`} className='opacity-100 w-96 ' />
             </div>
             <FloatingCard />
           </div>
