@@ -2,6 +2,7 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa"; // Import Instagram icon (requires react-icons)
 import Image from 'next/image';
+import { prefix } from "@/prefix";
 
 
 const DesktopImageRow: React.FC = () => {
@@ -26,7 +27,7 @@ const DesktopImageRow: React.FC = () => {
                     }
                   >
                     <Image
-                      src="/shots/IMG_9885.jpg"
+                      src={`${prefix}/shots/IMG_9885.jpg`}
                       alt="Instagram photo"
                       width={288} // width in pixels
                       height={384} // height in pixels
@@ -47,7 +48,7 @@ const DesktopImageRow: React.FC = () => {
                     }
                   >
                     <Image
-                      src="/shots/IMG_7662.jpg"
+                      src={`${prefix}/shots/IMG_7662.jpg`}
                       alt="Instagram photo"
                       width={288}
                       height={192}
@@ -72,7 +73,7 @@ const DesktopImageRow: React.FC = () => {
                     }
                   >
                     <Image
-                      src="/shots/IMG_0705.jpg"
+                      src={`${prefix}/shots/IMG_0705.jpg`}
                       alt="Instagram photo"
                       width={500}
                       height={208}
@@ -96,7 +97,7 @@ const DesktopImageRow: React.FC = () => {
                       }
                     >
                       <Image
-                        src="/shots/KICC.jpg"
+                        src={`${prefix}/shots/KICC.jpg`}
                         alt="Instagram photo"
                         width={380}
                         height={512}
@@ -120,7 +121,7 @@ const DesktopImageRow: React.FC = () => {
                         }
                       >
                         <Image
-                          src="/shots/IMG_9407.jpg"
+                          src={`${prefix}/shots/IMG_9407.jpg`}
                           alt="Instagram photo"
                           width={320}
                           height={384}
@@ -141,7 +142,7 @@ const DesktopImageRow: React.FC = () => {
                         }
                       >
                         <Image
-                          src="/shots/DSC_0033.jpg"
+                          src={`${prefix}/shots/DSC_0033.jpg`}
                           alt="Instagram photo"
                           width={320}
                           height={384}

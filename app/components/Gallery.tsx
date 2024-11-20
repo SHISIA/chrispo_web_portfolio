@@ -1,21 +1,22 @@
 import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { prefix } from '@/prefix';
 
 const ImageGallery: React.FC = () => {
     // Update images array here to include any additional image paths
     const images = [
-        "/shots/IMG_3054.jpg",
-        "/shots/DSC_0033.jpg",  // Add the paths to your images here
-        "/shots/DSC_0047.jpg",
-        "/shots/IMG_0383.jpg",
-        "/shots/IMG_0557.jpg",
-        "/shots/IMG_0634.jpg",
-        "/shots/IMG_0705.jpg",
-        "/shots/IMG_1265.jpg",
-        "/shots/IMG_1528.jpg",
-        "/shots/IMG_1877.jpg",
-        "/shots/IMG_1917.jpg",
-        "/shots/IMG_2273.jpg",
+        `${prefix}/shots/IMG_3054.jpg`,
+        `${prefix}/shots/DSC_0033.jpg`,  // Add the paths to your images here
+        `${prefix}/shots/DSC_0047.jpg`,
+        `${prefix}/shots/IMG_0383.jpg`,
+        `${prefix}/shots/IMG_0557.jpg`,
+        `${prefix}/shots/IMG_0634.jpg`,
+        `${prefix}/shots/IMG_0705.jpg`,
+        `${prefix}/shots/IMG_1265.jpg`,
+        `${prefix}/shots/IMG_1528.jpg`,
+        `${prefix}/shots/IMG_1877.jpg`,
+        `${prefix}/shots/IMG_1917.jpg`,
+        `${prefix}/shots/IMG_2273.jpg`,
         // "/shots/2279.jpg",
         // "/shots/2845.jpg",
         // "/shots/2849.jpg"

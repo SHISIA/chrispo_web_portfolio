@@ -113,7 +113,7 @@ export default function Home() {
   return (
     <div className=" relative sm:max-w-full max-w-7xl mx-auto h-screen flex flex-col items-center content-center text-center  isolate  ">
       <div id='homeMobile' className='md:hidden justify-end items-end opacity-100 '>
-        <Image alt='chrispo image' width={96} height={96} src='/shots/flipped.png' className='fixed *:-z-20 opacity-10 md:opacity-100 w-96 mt-20 -ml-11 ' />
+        <Image alt='chrispo image' width={96} height={96} src={`${prefix}/shots/flipped.png`} className='fixed *:-z-20 opacity-10 md:opacity-100 w-96 mt-20 -ml-11 ' />
       </div>
       <div id='home' className="hidden sm:flex flex-row space-x-5 py-6 fixed top-0 bg-white z-50 w-full items-center justify-center h-16">
         <a href='#home' className="cursor-pointer hover:bg-slate-900 w-24 hover:text-white text-gray-900 rounded-3xl p-2" >Home</a>

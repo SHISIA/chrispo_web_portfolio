@@ -2,13 +2,14 @@ import React, { useEffect } from "react";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import Image from "next/image";
+import { prefix } from "@/prefix";
 
 
 const logos = [
-    { src: "/images/kisumu.png", alt: "County Government of Kisumu" },
-    { src: "/images/aar.png", alt: "AAR Healthcare" },
-    { src: "/images/judiciary.png", alt: "The Judiciary of Kenya" },
-    { src: "/images/Trinityforest.png", alt: "Trinity Forest Services , Bombo Uganda" },
+    { src: `${prefix}/images/kisumu.png`, alt: "County Government of Kisumu" },
+    { src: `${prefix}/images/aar.png`, alt: "AAR Healthcare" },
+    { src: `${prefix}/images/judiciary.png`, alt: "The Judiciary of Kenya" },
+    { src: `${prefix}/images/Trinityforest.png`, alt: "Trinity Forest Services , Bombo Uganda" },
   ];
 
 

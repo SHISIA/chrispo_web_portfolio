@@ -1,18 +1,19 @@
+import { prefix } from "@/prefix";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 const images = [
-  "/shots/DSC_0033.jpg",  // Add the paths to your images here
-  "/shots/DSC_0047.jpg",
-  "/shots/IMG_0383.jpg",
-  "/shots/IMG_0557.jpg",
-  "/shots/IMG_0634.jpg",
-  "/shots/IMG_0705.jpg",
-  "/shots/IMG_1265.jpg",
-  "/shots/IMG_1528.jpg",
-  "/shots/IMG_1877.jpg",
-  "/shots/IMG_1917.jpg",
-  "/shots/IMG_2273.jpg",
+  `${prefix}/shots/DSC_0033.jpg`,  // Add the paths to your images here
+  `${prefix}/shots/DSC_0047.jpg`,
+  `${prefix}/shots/IMG_0383.jpg`,
+  `${prefix}/shots/IMG_0557.jpg`,
+  `${prefix}/shots/IMG_0634.jpg`,
+  `${prefix}/shots/IMG_0705.jpg`,
+  `${prefix}/shots/IMG_1265.jpg`,
+  `${prefix}/shots/IMG_1528.jpg`,
+  `${prefix}/shots/IMG_1877.jpg`,
+  `${prefix}/shots/IMG_1917.jpg`,
+  `${prefix}/shots/IMG_2273.jpg`,
   // Add as many images as you like
 ];
 

@@ -1,5 +1,6 @@
 'use client';
 
+import { prefix } from '@/prefix';
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -39,7 +40,7 @@ export default function ContactForm() {
     <div className="w-full flex p-4 max-w-7xl mt-6">
       <div className='flex flex-row w-full justify-center '>
         <Image
-          src="/images/butterfly.jpeg"
+          src={`${prefix}/images/butterfly.jpeg`}
           alt="A beautiful butterfly"
           className="hidden xl:flex w-96 rounded-l-xl"
           width={384} // Width in pixels (tailored for w-96)

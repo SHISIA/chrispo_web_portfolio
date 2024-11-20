@@ -2,6 +2,7 @@ import React from 'react';
 import { FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa';
 import handleWhatsAppClick from './ContactUtils';
 import Image from 'next/image';
+import { prefix } from '@/prefix';
 
 const Footer: React.FC = () => {
     return (
@@ -32,7 +33,7 @@ const Footer: React.FC = () => {
                             >
                                 <Image
                                     alt="Instagram icon"
-                                    src="/icons/ig.png"
+                                    src={`${prefix}/icons/ig.png`}
                                     width={40}
                                     height={40}
                                     priority={false}
@@ -47,7 +48,7 @@ const Footer: React.FC = () => {
                             >
                                 <Image
                                     alt="X (Twitter) icon"
-                                    src="/icons/x.png"
+                                    src={`${prefix}/icons/x.png`}
                                     width={40}
                                     height={40}
                                     priority={false}
@@ -62,7 +63,7 @@ const Footer: React.FC = () => {
                             >
                                 <Image
                                     alt="YouTube icon"
-                                    src="/icons/yt.png"
+                                    src={`${prefix}/icons/yt.png`}
                                     width={40}
                                     height={40}
                                     priority={false}

@@ -1,6 +1,7 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Typography } from "@mui/material";
+import { prefix } from "@/prefix";
 
 export const Typewriter = () => {
   return (
@@ -11,7 +12,7 @@ export const Typewriter = () => {
 
             <div className="flex flex-row">
               <Typography className="flex text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent mt-1">C</Typography>
-              <img className="h-16 mt-2 -ml-3 -mr-3" src="/shots/camera_lens.png" alt="camera icon"/>
+              <img className="h-16 mt-2 -ml-3 -mr-3" src={`${prefix}/shots/camera_lens.png`} alt="camera icon"/>
               <Typography className="flex-ml-5 text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent ">pturing </Typography>
             </div>
             <Typography className="flex-ml-5 text-7xl bg-gradient-to-r from-slate-500 to-slate-800 bg-clip-text text-transparent "> Moments . . . </Typography>
