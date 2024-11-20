@@ -76,7 +76,7 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
         env:
-          NEXT_PUBLIC_BASE_PATH: "/your-repo-name" # Replace with your actual repo name
+          NEXT_PUBLIC_BASE_PATH: "/chrispo_web_portfolio" # Replace with your actual repo name
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
