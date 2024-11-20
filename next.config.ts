@@ -12,9 +12,9 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  output: 'export',
-    basePath: '/chrispo_web_Portfolio', // Replace with your repository name
-  // assetPrefix: isProd ? '/chrispo_web_Portfolio' : '', // Use the prefix only in production
+  // output: 'export',
+    // basePath: '/chrispo_web_Portfolio', // Replace with your repository name
+  assetPrefix: isProd ? '/chrispo_web_Portfolio' : '', // Use the prefix only in production
   trailingSlash: true,
 };
 
