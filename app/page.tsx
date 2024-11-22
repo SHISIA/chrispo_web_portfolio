@@ -4,7 +4,6 @@ import { IconButton, Typography } from '@mui/material';
 import React, { useEffect, useRef, useState } from 'react';
 import { Typewriter } from './components/Typewriter';
 import Footer from './components/Footer';
-import InfiniteScrollComponent from './components/ShiftingDropDown';
 import { motion } from 'framer-motion';
 import ContactForm from './components/Contact';
 import DesktopImageRow from './components/DesktopImageGrow';
@@ -170,11 +169,10 @@ export default function Home() {
             <Typewriter />
 
             <div className='hidden md:flex -z-20  justify-end items-center opacity-100'>
-              {/* <img  loading='lazy' src='/shots/flipped.png' className='opacity-100 w-96 border rounded-full' /> */}
               <div className="flex flex-row">
-
-                <div>
-
+                {/* <img loading='lazy' src='/images/lenses.png' className='opacity-100 w-10 h-10' /> */}
+                <div className='flex items-end'>
+                  <img loading='lazy' src='/images/lenses.png' className='opacity-100 w-12 h-10 -mr-12 z-10' />
                   <img alt="chrispo image" width={100} height={100} src={`${prefix}/shots/flipped.webp`} className='opacity-100 w-96 ' />
                 </div>
                 <FloatingCard />
@@ -186,7 +184,7 @@ export default function Home() {
 
           <div id="portfolio" className='text-start w-full px-0 xl:px-3 max-w-7xl flex flex-col items-center bg-white '>
 
-            <Portfolio  setIsPortfolio={setIsportfolio}/>
+            <Portfolio setIsPortfolio={setIsportfolio} />
           </div>
 
           <div className="bg- px-2 py-10">
@@ -251,7 +249,7 @@ export default function Home() {
       )}
 
       {isPortfolio && (
-        <Shots setIsPortfolio={setIsportfolio}/>
+        <Shots setIsPortfolio={setIsportfolio} />
       )}
     </div>
 
