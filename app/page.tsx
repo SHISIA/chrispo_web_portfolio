@@ -172,7 +172,7 @@ export default function Home() {
               <div className="flex flex-row">
                 {/* <img loading='lazy' src='/images/lenses.png' className='opacity-100 w-10 h-10' /> */}
                 <div className='flex items-end'>
-                  <img loading='lazy' src='/images/lenses.png' className='opacity-100 w-12 h-10 -mr-12 z-10' />
+                  <img loading='lazy' src={`${prefix}/images/lenses.png`} className='opacity-100 w-12 h-10 -mr-12 z-10' />
                   <img alt="chrispo image" width={100} height={100} src={`${prefix}/shots/flipped.webp`} className='opacity-100 w-96 ' />
                 </div>
                 <FloatingCard />
