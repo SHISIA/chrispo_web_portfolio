@@ -6,21 +6,21 @@ interface PortfolioProps {
 }
 
 const images = [
-    `${prefix}/frames/freepik0.png`,
-    `${prefix}/frames/freepik1.png`,
-    `${prefix}/frames/freepik2.png`,
-    `${prefix}/frames/freepik3.png`,
-    `${prefix}/frames/freepik4.png`,
-    `${prefix}/frames/freepik5.png`,
-    `${prefix}/frames/freepik6.png`,
-    `${prefix}/frames/freepik7.png`,
-    `${prefix}/frames/freepik8.png`,
-    `${prefix}/frames/freepik9.png`,
-    `${prefix}/frames/freepik10.png`,
-    `${prefix}/frames/freepik11.png`,
-    `${prefix}/frames/freepik12.png`,
-    `${prefix}/frames/freepik13.png`,
-    `${prefix}/frames/freepik14.png`,
+    `${prefix}/frames/freepik0.webp`,
+    `${prefix}/frames/freepik1.webp`,
+    `${prefix}/frames/freepik2.webp`,
+    `${prefix}/frames/freepik3.webp`,
+    `${prefix}/frames/freepik4.webp`,
+    `${prefix}/frames/freepik5.webp`,
+    `${prefix}/frames/freepik6.webp`,
+    `${prefix}/frames/freepik7.webp`,
+    `${prefix}/frames/freepik8.webp`,
+    `${prefix}/frames/freepik9.webp`,
+    `${prefix}/frames/freepik10.webp`,
+    `${prefix}/frames/freepik11.webp`,
+    `${prefix}/frames/freepik12.webp`,
+    `${prefix}/frames/freepik13.webp`,
+    `${prefix}/frames/freepik14.webp`,
 ];
 
 export default function Portfolio({
