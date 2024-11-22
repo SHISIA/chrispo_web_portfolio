@@ -85,7 +85,7 @@ const Shots: React.FC<BackArrowProps> = ({ setIsPortfolio }) => {
 
                     <h1 className="mb-0 text-4xl font-extrabold leading-none tracking-normal text-gray-900  md:tracking-tight">
                         <span className="block w-full font-sans text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline">
-                            Here's to the crazy shots
+                            Here&apos;s to the crazy shots
                         </span>
                     </h1>
                 </div>

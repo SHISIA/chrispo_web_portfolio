@@ -73,7 +73,7 @@ export default function Portfolio({
             </div>
 
             <div className='hidden xl:flex flex-col gap-5'>
-                <p className='text-4xl text-gray-900 font-sans'>Let's answer why...</p>
+                <p className='text-4xl text-gray-900 font-sans'>Let&apos;s answer why...</p>
                 <p className="text-gray-500 w-[500px] text-lg font-sans">
                     Our photographs aren’t just images—they’re storytellers, shaping the way the world sees and experiences moments. From stunning visuals that would grace the pages of top-tier magazines to digital ads capturing attention in microseconds, our shots bring life and emotion to brands, campaigns, and most importantly , an unflickering spotlight towards you , our client. They can be featured in websites, social media, billboards, and even packaging, ensuring that creativity and professionalism reach audiences faster than the speed of light. Each shot, crafted with precision and an eye for detail, becomes a universal language, transforming ideas into unforgettable visuals. Our shots are the music for your eyes ; invoking emotions like musical notes as we capture your journeys and create unforgettable memories.
                 </p>
