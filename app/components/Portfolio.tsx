@@ -67,7 +67,7 @@ export default function Portfolio({
                         e.preventDefault(); // Prevents the default anchor behavior if needed
                         setIsPortfolio(true); // Toggles the portfolio state
                     }} className='visible sm:hidden bg-slate-500 h-14 w-72 mt-7 text-xl font-sans rounded-md'>
-                        More shots?
+                        <p className='text-white'>More shots?</p>
                     </button>
                 </div>
             </div>
@@ -82,7 +82,7 @@ export default function Portfolio({
                     setIsPortfolio(true); // Toggles the portfolio state
                 }}
                     className='bg-slate-900 h-14 w-72 mt-7 text-xl font-sans rounded-md'>
-                    More shots?
+                    <p className='text-white'>More shots?</p>
                 </button>
             </div>
         </div>
